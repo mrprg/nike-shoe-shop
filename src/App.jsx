@@ -1,12 +1,12 @@
 import React from 'react'
-
+import { Header } from './components'
 const App = () => {
   return (
-    <div>
-      <h1 className=' bg-black text-red text-4xl font-bold '>
-        test tailwind!
-      </h1>
-    </div>
+    <>
+      <main>
+          <Header />
+      </main> 
+    </>
   )
 }
 
