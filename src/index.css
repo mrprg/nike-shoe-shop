@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
- /* Theme-Colors */
+/* container */
+.nike-container {
+    @apply w-11/12 m-auto;
+  }
+   
+/* Theme-Colors */
  .bg-theme {
     background-image: linear-gradient( 0.2deg,  rgba(40, 173, 222,1) 4.8%, rgb(27, 76, 224) 85.5% );
   }
