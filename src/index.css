@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 /* container */
 .nike-container {
     @apply w-11/12 m-auto;
@@ -21,3 +23,8 @@
     .button-theme {
          @apply px-7 py-1 rounded active:scale-90 transition-all duration-100 ease-in-out shadow-md sm:text-sm;
      }
+
+    /* tranistions-theme */
+  .transitions-theme {
+    @apply transition-all duration-700 ease-in-out cursor-pointer;
+  }
