@@ -31,7 +31,7 @@ const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallink
                         {btntext}</button>
                     
                     <div>
-                        {videos.map((val, i) => (
+                        {videos?.map((val, i) => (
                             <Clips key={i}
                             imgsrc={val.imgsrc} 
                             clip={val.clip}
