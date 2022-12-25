@@ -31,7 +31,7 @@ import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
 import messenger from "../assets/messenger.svg";
 
-const headerapi = {
+export const headerapi = {
   title: "Play With Electric Nike",
   subtitle: "Adapt 2.0 Sneakers",
   img: headerimg,
