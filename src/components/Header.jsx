@@ -1,21 +1,21 @@
 import React from 'react';
 
-const Header = () => {
+const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallinks } }) => {
   return (
     <>
         <div>
             <div></div>
             <div>
                 <div>
-                    <h1></h1>
-                    <h1></h1>
-                    <button></button>
+                    <h1>{title}</h1>
+                    <h1>{subtitle}</h1>
+                    <button>{btntext}</button>
                     <div></div>
                     <div></div>
                 </div>
                 <div>
                     <Img 
-                    src=''
+                    src={img}
                     alt='Nike'
                     className=''
                     />
