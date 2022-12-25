@@ -24,7 +24,10 @@ const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallink
                     font-extrabold filter drop-shadow-sm
                     text-slate-200'>{subtitle}</h1>
                     
-                    <button type='button' className='button-theme bg-slate-200 shadow-slate-200 rounded-xl my-5'>{btntext}</button>
+                    <button type='button' 
+                    className='button-theme bg-slate-200
+                     shadow-slate-200 rounded-xl my-5'>
+                        {btntext}</button>
                     
                     <div></div>
                     <div></div>
@@ -33,7 +36,12 @@ const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallink
                     <img 
                         src={img}
                         alt='Nike'
-                        className=''
+                        className='w-auto h-[45vh] lg:h-[35vh]
+                        md:h-[31vh] sm:h-[21vh] 
+                        xsm:h-[19vh] transitions-theme
+                        -rotate-[25deg] hover:rotate-0 cursor-pointer
+                        object-fill
+                        '
                     />
                 </div>
             </div>
