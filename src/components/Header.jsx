@@ -1,5 +1,6 @@
 import React from 'react';
 import Clips from './utils/Clips';
+import SocialLinks from './utils/SocialLinks';
 
 const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallinks } }) => {
   return (
@@ -38,7 +39,14 @@ const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallink
                             />
                         ))}
                     </div>
-                    <div></div>
+                    <div>
+                        {sociallinks?.map((val, i ) => (
+                            <SocialLinks
+                            key={i}
+                            icon={val.icon}
+                            />
+                        ))}
+                    </div>
                 </div>
                 <div>
                     <img 
