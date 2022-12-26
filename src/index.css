@@ -9,6 +9,11 @@
     @apply w-11/12 m-auto;
   }
 
+  /* Icon Style */
+  .icon-style {
+    @apply h-6 w-6 sm:h-5 sm:w-5 text-slate-100 cursor-pointer transition-all duration-100 active:scale-110 leading-tight;
+  }
+
 /* Theme-Colors */
  .bg-theme {
     background-image: linear-gradient( 0.2deg,  rgba(40, 173, 222,1) 4.8%, rgb(27, 76, 224) 85.5% );
