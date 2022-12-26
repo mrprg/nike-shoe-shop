@@ -9,6 +9,10 @@
     @apply w-11/12 m-auto;
   }
 
+  .blur-effect-theme {
+    @apply bg-white/50 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-50 opacity-100 z-[100] shadow-sm shadow-slate-100 transition-all duration-300;
+  }
+
   /* Icon Style */
   .icon-style {
     @apply h-6 w-6 sm:h-5 sm:w-5 text-slate-100 cursor-pointer transition-all duration-100 active:scale-110 leading-tight;
