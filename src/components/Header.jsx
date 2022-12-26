@@ -39,7 +39,7 @@ const Header = ({ headerapi: { title, subtitle, img, btntext, videos, sociallink
                             />
                         ))}
                     </div>
-                    <div>
+                    <div className='grid items-center absolute top-[33vh] lg:top-[27vh] right-0 gap-3'>
                         {sociallinks?.map((val, i ) => (
                             <SocialLinks
                             key={i}
