@@ -89,7 +89,7 @@ const popularsales = {
   ],
 };
 
-const toprateslaes = {
+const topratesales = {
   title: "Top Rated Sales",
   items: [
     {
