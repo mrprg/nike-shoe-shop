@@ -1,12 +1,13 @@
 import React from 'react';
 import { Header, Sales } from './components';
-import { headerapi } from './data/data';
+import { headerapi, popularsales, topratedsales } from './data/data';
 const App = () => {
   return (
     <>
       <main>
           <Header headerapi={ headerapi } />
-          <Sales />
+          <Sales endpoint={popularsales} />
+          <Sales endpoint={topratedsales} />
       </main> 
     </>
   )

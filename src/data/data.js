@@ -50,7 +50,7 @@ export const headerapi = {
   ],
 };
 
-const popularsales = {
+export const popularsales = {
   title: "Popular Sales",
   items: [
     {
@@ -89,7 +89,7 @@ const popularsales = {
   ],
 };
 
-const topratesales = {
+export const topratedsales = {
   title: "Top Rated Sales",
   items: [
     {
