@@ -9,6 +9,12 @@
     @apply w-11/12 m-auto;
   }
 
+    /* text-gradient */
+    .text-gradient {
+      @apply text-transparent bg-clip-text bg-gradient-to-tr from-blue-500 to-sky-500;
+    }
+  
+
   .blur-effect-theme {
     @apply bg-white/50 bg-clip-padding backdrop-filter backdrop-blur bg-opacity-50 opacity-100 z-[100] shadow-sm shadow-slate-100 transition-all duration-300;
   }
