@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, Sales } from './components';
+import { Header, Sales, FlexContent } from './components';
 import { headerapi, popularsales, topratedsales } from './data/data';
 const App = () => {
   return (
