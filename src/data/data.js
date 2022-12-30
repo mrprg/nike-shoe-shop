@@ -227,7 +227,7 @@ export const topratedsales = {
   ],
 };
 
-const highlight = {
+export const highlight = {
   heading: "HIGHLIGHTS",
   title: "NIKE AIR WITH LIMITLESS CHOICES",
   text: "Our Purpose is to move the world forward. We take action by building community, protecting our planet and increasing access to sport.",
@@ -236,7 +236,7 @@ const highlight = {
   img: hightlightimg,
 };
 
-const sneaker = {
+export const sneaker = {
   heading: "FEATURED",
   title: "NIKE SNEAKERS AIR LANCING SHOES",
   text: "The radiance lives on Nike Sneakers Air Lancing Shoes, the basket ball OG that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.",
