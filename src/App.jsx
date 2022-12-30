@@ -8,6 +8,7 @@ const App = () => {
           <Header headerapi={ headerapi } />
           <Sales endpoint={popularsales} ifExists/>
           <Sales endpoint={topratedsales} />
+          <FlexContent/>
       </main> 
     </>
   )
