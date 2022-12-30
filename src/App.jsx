@@ -7,7 +7,7 @@ const App = () => {
       <main className='flex flex-col gap-16 relative'>
           <Header headerapi={ headerapi } />
           <Sales endpoint={popularsales} ifExists/>
-          <FlexContent endpoint={highlight} />
+          <FlexContent endpoint={highlight} ifExists/>
           <Sales endpoint={topratedsales} />
           <FlexContent endpoint={sneaker} />
       </main> 
