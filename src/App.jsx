@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, Sales, FlexContent, Stories } from './components';
-import { headerapi, popularsales, topratedsales, highlight, sneaker } from './data/data';
+import { headerapi, popularsales, topratedsales, highlight, sneaker, story } from './data/data';
 const App = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const App = () => {
           <FlexContent endpoint={highlight} ifExists/>
           <Sales endpoint={topratedsales} />
           <FlexContent endpoint={sneaker} />
-          <Stories />
+          <Stories story={story} />
       </main> 
     </>
   )
