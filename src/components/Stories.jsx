@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Stories = () => {
+const Stories = ({ story: { title, news } }) => {
   return (
-    <div>Stories</div>
+    <>
+        
+    </>
   )
 }
 
