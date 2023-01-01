@@ -20,7 +20,7 @@ const App = () => {
         <FlexContent endpoint={sneaker} />
         <Stories story={story} />
       </main>
-      <Footer />
+      <Footer footerAPI={footerAPI}/>
     </>
   );
 };
