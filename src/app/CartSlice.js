@@ -8,11 +8,11 @@ const CartSlice = createSlice({
     initialState,
     name:"cart",
     reducers: {
-        setOpenCart: (action, state) => {
-
+        setOpenCart: (state, action) => {
+                state.cartState = action.payload.cartState;
         },
-        setCloseCart: (action, state) => {
-
+        setCloseCart: (state, action) => {
+                state.cartState = action.payload.cartState;
         }
     }
 })
