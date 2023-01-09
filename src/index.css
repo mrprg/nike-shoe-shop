@@ -46,3 +46,27 @@
   .transitions-theme {
     @apply transition-all duration-700 ease-in-out cursor-pointer;
   }
+
+    /* button */
+    .button-theme {
+      @apply px-7 py-1 rounded active:scale-90 transition-all duration-100 ease-in-out shadow-md sm:text-sm;
+    }
+
+      /* Scroll */
+  .scroll-hidden::-webkit-scrollbar{
+    display: none;
+  }
+  .scroll-style::-webkit-scrollbar{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(66, 245, 141) rgb(66, 245, 141); 
+  }
+  .scroll-style::-webkit-scrollbar{
+    @apply w-2;
+  }
+  .scroll-style::-webkit-scrollbar-track {
+    @apply bg-slate-700;
+  }
+  .scroll-style::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-gradient-to-tr from-blue-500 to-green-500 via-teal-500;
+  }
